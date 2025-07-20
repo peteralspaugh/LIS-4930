@@ -161,7 +161,7 @@ def initialize():
         
         # if not, create file and write empty list to file
         with open(filename, "w") as file:
-            file.write("[]")
+            file.write("[("placeholder","placeholder",-1000,"placeholder","placeholder","placeholder")]")
 
     # save the top 10000 most common English words from the library wordfreq as the variable wordlist and draw a random word to be the target word.
     wordlist = top_n_list('en', 10000)
