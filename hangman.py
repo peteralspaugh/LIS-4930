@@ -207,3 +207,4 @@ def initialize():
     if ((inp == "Yes") or (inp == "yes")):
         initialize()
 
+initialize()
