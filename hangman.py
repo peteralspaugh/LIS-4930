@@ -207,4 +207,5 @@ def initialize():
     if ((inp == "Yes") or (inp == "yes")):
         initialize()
 
-initialize()
+if __name__ == "__main__":
+    initialize()
