@@ -98,7 +98,7 @@ def recordscore(rec, filename):
         # search through existing high scores and compare if current score should be on the list
         for i in range(0,len(highscores)):
 
-            # if current score beats an current high scores and the list hasn't yet been updated, then do so
+            # if current score beats a current high scores and the list hasn't yet been updated, then do so
             if ((rec[2]>highscores[i][2]) and (changed == False)):
                 newscores.append(rec)
                 newscores.append(highscores[i])
